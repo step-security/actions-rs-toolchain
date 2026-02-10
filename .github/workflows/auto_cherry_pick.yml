@@ -34,4 +34,4 @@ jobs:
       repo-name: "toolchain"
       base_branch: ${{ inputs.base_branch }}
       mode: ${{ github.event_name == 'pull_request' && 'verify' || inputs.mode }}
-      use_private_packagesh: ${{ inputs.use_private_packages || true }}
+      use_private_packages: ${{ inputs.use_private_packages || true }}

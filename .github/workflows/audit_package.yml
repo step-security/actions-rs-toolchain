@@ -25,7 +25,7 @@ jobs:
     with:
       force: ${{ inputs.force || false }}
       base_branch: ${{ inputs.base_branch || 'main' }}
-      use_private_packagesh: ${{ inputs.use_private_packages || true }}
+      use_private_packages: ${{ inputs.use_private_packages || true }}
 
 permissions:
   contents: write
