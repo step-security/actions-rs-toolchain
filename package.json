@@ -1,6 +1,6 @@
 {
     "name": "actions-rs-toolchain",
-    "version": "1.0.7",
+    "version": "1.0.6",
     "private": false,
     "description": "Install the Rust toolchain",
     "main": "lib/main.js",

@@ -72,7 +72,6 @@ async function run(): Promise<void> {
   // if that specific `nightly` version does not have this component
   // available.
   //
-  // See https://github.com/actions-rs/toolchain/issues/53 also.
   //
   // By default `rustup` does not downgrade, as it does when you are
   // updating already installed `nightly`, so we need to pass the
