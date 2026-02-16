@@ -1,0 +1,8 @@
+{
+  "clearMocks": true,
+  "preset": "ts-jest",
+  "moduleFileExtensions": ["js", "ts"],
+  "testEnvironment": "node",
+  "testMatch": ["**/*.test.ts"],
+  "verbose": true
+}
