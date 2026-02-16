@@ -3,7 +3,7 @@ import path from "path";
 
 import * as args from "./args";
 import * as versions from "./versions";
-import { RustUp, ToolchainOptions } from "@actions-rs/core";
+import { RustUp, ToolchainOptions } from "./core";
 import axios, { isAxiosError } from "axios";
 
 async function validateSubscription(): Promise<void> {
