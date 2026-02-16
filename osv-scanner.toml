@@ -1,15 +1,3 @@
 [[IgnoredVulns]]
-id = "GHSA-h5c3-5r3r-rr8q"
-reason = "ReDoS in @octokit/plugin-paginate-rest via Link header parsing. Not exploitable - no GitHub API calls are made."
-
-[[IgnoredVulns]]
-id = "GHSA-rmvr-2pp2-xj38"
-reason = "ReDoS in @octokit/request via Link header parsing. Not exploitable - no octokit HTTP requests are made."
-
-[[IgnoredVulns]]
-id = "GHSA-xx4v-prfh-6cgc"
-reason = "ReDoS in @octokit/request-error via authorization header. Not exploitable - no octokit HTTP requests are made."
-
-[[IgnoredVulns]]
 id = "GHSA-g9mf-h72j-4rw9"
 reason = "Resource exhaustion in undici via Content-Encoding decompression. Not exploitable - undici Fetch API is never called."
