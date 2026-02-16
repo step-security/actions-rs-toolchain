@@ -6,6 +6,7 @@ on:
       tag:
         description: "Tag for the release"
         required: true
+
 permissions:
   contents: read
 
