@@ -1,3 +1,5 @@
+[![StepSecurity Maintained Action](https://raw.githubusercontent.com/step-security/maintained-actions-assets/main/assets/maintained-action-banner.png)](https://docs.stepsecurity.io/actions/stepsecurity-maintained-actions)
+
 # `actions-rs-toolchain` Action
 
 ![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
