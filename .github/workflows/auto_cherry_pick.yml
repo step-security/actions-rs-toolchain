@@ -15,6 +15,10 @@ on:
         description: "Use private packages (default: false)"
         required: false
         type: boolean
+      node_version:
+        description: "Specify Node.js version (e.g., '18', '20', 'lts/*')"
+        required: false
+        default: "24"
 
   pull_request:
     types: [opened, synchronize, labeled]
@@ -35,3 +39,4 @@ jobs:
       base_branch: ${{ inputs.base_branch }}
       mode: ${{ github.event_name == 'pull_request' && 'verify' || inputs.mode }}
       use_private_packages: ${{ inputs.use_private_packages || true }}
+      node_version: "${{ inputs.node_version || '24' }}"
